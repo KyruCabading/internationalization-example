@@ -23,11 +23,9 @@ This is a working prototype of internationalization setup for both English and S
 To implement, we just directly swap out English strings with Intl components like "FormattedMessage" which handles switching out the string it gets from the server based on app/browser locale.
 
 ## Recommendation
-
-### Implementation
 **It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
 
-#### Technical
+### Technical Implementation
 - I recommend directly swapping out strings with Translation Code inline the return/render function call rather than abstracting the code to a separate file per component due to the difficulty of refactoring if we want to move things around + inject values into our components. Especially without type-checking this can go out of hand pretty quick.
 
 **A.K.A. Favor this...**
