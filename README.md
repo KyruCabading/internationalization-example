@@ -25,7 +25,6 @@ To implement, we just directly swap out English strings with Intl components lik
 ## Recommendation
 
 ### Implementation
-#### Project
 **It'll be much faster to not implement internationalization during development process** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
 
 #### Technical
