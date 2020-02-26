@@ -1,0 +1,12 @@
+{
+  "title": "Ejemplo de React Intl Next.js",
+  "nav.home": "Página principal",
+  "nav.other": "Temporizadores y Ordinales",
+  "all": "Todo",
+  "books": "Libros",
+  "news": "Noticias",
+  "switchLocale": "Cambiar localidad (Switch Locale)",
+  "images": "Imágenes",
+  "timer.secondsAgo": "Hace segundos temporizador",
+  "timer.ordinalNumbers": "{name}, got {placement, selectordinal, other{#} } place."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "all",
+    "defaultMessage": "All"
+  },
+  {
+    "id": "videos",
+    "defaultMessage": "Videos"
+  },
+  {
+    "id": "books",
+    "defaultMessage": "Books"
+  },
+  {
+    "id": "news",
+    "defaultMessage": "News"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "switchLocale",
+    "defaultMessage": "Switch Locale"
+  },
+  {
+    "id": "all",
+    "defaultMessage": "All"
+  },
+  {
+    "id": "images",
+    "defaultMessage": "Images"
+  },
+  {
+    "id": "books",
+    "defaultMessage": "Books"
+  },
+  {
+    "id": "news",
+    "defaultMessage": "News"
+  }
+]

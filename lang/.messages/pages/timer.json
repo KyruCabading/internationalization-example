@@ -1,0 +1,10 @@
+[
+  {
+    "id": "secondsAgo",
+    "defaultMessage": "Seconds Ago Timer"
+  },
+  {
+    "id": "timer.ordinalNumbers",
+    "defaultMessage": "{name}, got {placement, selectordinal,  one {#st} two {#nd} few {#rd} other{#th} } place."
+  }
+]

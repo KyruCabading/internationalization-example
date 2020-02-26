@@ -1,33 +1,54 @@
-import {
-  FormattedMessage,
-  FormattedNumber,
-  defineMessages,
-  useIntl,
-} from 'react-intl'
-import Head from 'next/head'
-import Layout from '../components/Layout'
+import { FormattedMessage, defineMessages, useIntl } from "react-intl";
+import Layout from "../components/Layout";
 
-const { description } = defineMessages({
-  description: {
-    id: 'description',
-    defaultMessage: 'An example app integrating React Intl with Next.js',
+const { switchLocale, all, images, books, news } = defineMessages({
+  switchLocale: {
+    id: "switchLocale",
+    defaultMessage: "Switch Locale"
   },
-})
+  all: {
+    id: "all",
+    defaultMessage: "All"
+  },
+  images: {
+    id: "images",
+    defaultMessage: "Images"
+  },
+  books: {
+    id: "books",
+    defaultMessage: "Books"
+  },
+  news: {
+    id: "news",
+    defaultMessage: "News"
+  }
+});
 
-export default () => {
-  const intl = useIntl()
+export default props => {
+  const intl = useIntl();
 
   return (
     <Layout>
-      <Head>
-        <meta name="description" content={intl.formatMessage(description)} />
-      </Head>
+      <div>
+        <h1>Current Locale: {props.locale}</h1>
+        <div>
+          <button onClick={props.switchLocale}>
+            <FormattedMessage {...switchLocale} />
+          </button>
+        </div>
+      </div>
       <p>
-        <FormattedMessage id="greeting" defaultMessage="Hello, World!" />
+        <FormattedMessage {...all} />
       </p>
       <p>
-        <FormattedNumber value={1000} />
+        <FormattedMessage {...images} />
+      </p>
+      <p>
+        <FormattedMessage {...books} />
+      </p>
+      <p>
+        <FormattedMessage {...news} />
       </p>
     </Layout>
-  )
-}
+  );
+};
