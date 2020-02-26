@@ -8,7 +8,7 @@ https://with-react-intl.herokuapp.com/
 ### Project Work Flow
 1. We switch out english strings with our Translation Components that will render new strings in the language we support...
 2. For translation itself once the strings are switched out. We can run a script to extract all Translatable Strings into one "language" file 
-3. We can send to a team of spanish speakers to translate... They give us that file back, we insert it in and we'll have spanish supported. 
+3. We send this file to a team of spanish speakers to translate... They give us that file back and we'll have spanish supported. 
 
 ## How to run
 
