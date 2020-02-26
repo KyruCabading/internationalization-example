@@ -38,10 +38,9 @@ export default class MyApp extends App {
     return require(`../lang/${locale}.json`);
   };
 
-  switchLocale = () => {
-    this.setState(prevState => ({
-      locale: prevState.locale === "en" ? "es" : "en"
-    }));
+  switchLocale = event => {
+    console.log();
+    this.setState({ locale: event.target.value });
   };
 
   render() {

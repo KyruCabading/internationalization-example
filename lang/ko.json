@@ -1,0 +1,17 @@
+{
+  "title": "React Intl Next.js Example",
+  "nav.home": "홈페이지",
+  "nav.other": "타이머와 서수",
+  "all": "모두",
+  "videos": "비디오",
+  "books": "서적",
+  "news": "뉴스",
+  "switchLocale": "로케일 전환",
+  "images": "이미지",
+  "secondsAgo": "초 전 타이머",
+  "secondsAgoDescription": "Korean uses the same 초 for singular & plural form of second/seconds",
+  "ordinalSelectors": "서수 선택기",
+  "ordinalSelectorsDescription": "이들은 배치와 같은 것에 대한 서수 값을 변환합니다. 나는 이것이 정확히 무엇인지 모르기 때문에 아직 스페인어로 번역되지 않았습니다. >.<",
+  "refreshPage": "다른 값의 동작을 보려면 페이지를 새로 고치십시오.",
+  "timer.ordinalNumbers": "{name}, {placement, selectordinal, other{# 위} }."
+}

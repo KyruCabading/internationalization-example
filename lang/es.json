@@ -7,6 +7,10 @@
   "news": "Noticias",
   "switchLocale": "Cambiar localidad (Switch Locale)",
   "images": "Imágenes",
-  "timer.secondsAgo": "Hace segundos temporizador",
+  "secondsAgo": "Hace segundos temporizador",
+  "secondsAgoDescription": "Observe cómo el texto cambia de \"segundo\" a \"segundos\" según el valor.",
+  "ordinalSelectors": "Selectores ordinales",
+  "ordinalSelectorsDescription": "These convert ordinal values for things like placement. These are not\n        translated yet to spanish since I don't know what those are exactly :D",
+  "refreshPage": "Actualice la página para ver cómo se comportan los diferentes valores",
   "timer.ordinalNumbers": "{name}, got {placement, selectordinal, other{#} } place."
 }

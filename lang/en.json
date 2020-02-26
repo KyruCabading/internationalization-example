@@ -9,5 +9,9 @@
   "switchLocale": "Switch Locale",
   "images": "Images",
   "secondsAgo": "Seconds Ago Timer",
+  "secondsAgoDescription": " Note how the text changes from \"second\" to \"seconds\" depending on the value.",
+  "ordinalSelectors": "Ordinal Selectors",
+  "ordinalSelectorsDescription": "These convert ordinal values for things like placement. These are not translated yet to spanish since I don't know what those are exactly :D",
+  "refreshPage": "Refresh the page to see how different values behave",
   "timer.ordinalNumbers": "{name}, got {placement, selectordinal,  one {#st} two {#nd} few {#rd} other{#th} } place."
 }

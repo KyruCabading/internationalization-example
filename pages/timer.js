@@ -20,18 +20,32 @@ export default props => {
         />
       </h3>
       <p>
-        Note how the text changes from "second" to "seconds" depending on the
-        value.
+        <Message
+          id="secondsAgoDescription"
+          defaultMessage={
+            'Note how the text changes from "second" to "seconds" depending on the value.'
+          }
+        />
       </p>
 
       <hr />
 
-      <h2>Ordinal Selectors</h2>
+      <h2>
+        <Message id="ordinalSelectors" defaultMessage="Ordinal Selectors" />
+      </h2>
       <p>
-        These convert ordinal values for things like placement. These are not
-        translated yet to spanish since I don't know what those are exactly :D
+        <Message
+          id="ordinalSelectorsDescription"
+          defaultMessage="These convert ordinal values for things like placement. These are not
+        translated yet to spanish since I don't know what those are exactly :D"
+        />
       </p>
-      <p>Refresh the page to see how different values behave</p>
+      <p>
+        <Message
+          id="refreshPage"
+          defaultMessage="Refresh the page to see how different values behave"
+        />
+      </p>
       <p>
         <Message
           id="timer.ordinalNumbers"

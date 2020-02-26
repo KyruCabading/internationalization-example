@@ -32,9 +32,11 @@ export default props => {
       <div>
         <h1>Current Locale: {props.locale}</h1>
         <div>
-          <button onClick={props.switchLocale}>
-            <FormattedMessage {...switchLocale} />
-          </button>
+          <select onChange={props.switchLocale} value={props.locale}>
+            <option value="en">en</option>
+            <option value="es">es</option>
+            <option value="ko">ko</option>
+          </select>
         </div>
       </div>
       <p>

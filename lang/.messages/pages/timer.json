@@ -4,6 +4,22 @@
     "defaultMessage": "Seconds Ago Timer"
   },
   {
+    "id": "secondsAgoDescription",
+    "defaultMessage": " Note how the text changes from \"second\" to \"seconds\" depending on the value."
+  },
+  {
+    "id": "ordinalSelectors",
+    "defaultMessage": "Ordinal Selectors"
+  },
+  {
+    "id": "ordinalSelectorsDescription",
+    "defaultMessage": " These convert ordinal values for things like placement. These are not\n        translated yet to spanish since I don't know what those are exactly :D"
+  },
+  {
+    "id": "refreshPage",
+    "defaultMessage": "Refresh the page to see how different values behave"
+  },
+  {
     "id": "timer.ordinalNumbers",
     "defaultMessage": "{name}, got {placement, selectordinal,  one {#st} two {#nd} few {#rd} other{#th} } place."
   }
