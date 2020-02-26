@@ -11,6 +11,9 @@ https://with-react-intl.herokuapp.com/
 3. We send this language file to a team of spanish speakers to translate
 4. They give us that file back and we'll have spanish supported. 
 
+# Overview
+We can use either [react-intl](https://github.com/formatjs/react-intl) or [react-i18next](https://github.com/i18next/react-i18next). Both can do what we need. I prefer react-intl for it's cleaner structure. 
+
 ## How to run
 
 `npm i`
