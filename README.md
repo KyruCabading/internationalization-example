@@ -1,6 +1,10 @@
 # Example app with [React Intl][]
 https://with-react-intl.herokuapp.com/
 
+
+## Summary
+**It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
+
 ## How to run
 
 `npm i`
@@ -17,9 +21,6 @@ This is a working prototype of internationalization setup for both English and S
 - Relative Time (1 second ago / 2 seconds ago)
 - Browser/Computer Language Detection (off for current app)
 - In app language switching
-
-## Recommendation
-**It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
 
 ## How to Implement
 
