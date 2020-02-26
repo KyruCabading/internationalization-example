@@ -5,6 +5,10 @@ https://with-react-intl.herokuapp.com/
 ## Summary
 **It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
 
+### Project Work Flow
+We switch out english strings with our Translation Components that will render new strings in the language we support...
+For translation itself once the strings are switched out. We can run a script to extract all Translatable Strings into one "language" file which we can send to a team of spanish speakers to translate... They give us that file back, we insert it in and we'll have spanish supported. 
+
 ## How to run
 
 `npm i`
