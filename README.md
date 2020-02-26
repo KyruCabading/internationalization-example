@@ -1,4 +1,5 @@
 # Example app with [React Intl][]
+https://with-react-intl.herokuapp.com/
 
 ## How to run
 
