@@ -86,7 +86,7 @@ const HomePage = () => {
 
 ## Language Selection
 We should consider the several points for language selection
-- Browser Language Detection
+- Browser Language
 - App State
 - Cookies
 - Page URL parameters (website.com?lang=en)
