@@ -83,3 +83,19 @@ const HomePage = () => {
 ```
 
 - We also need to agree on a **scalable id structure** because IDs don't nest within intl... using an id of `home` in the homepage announcement... then later using `home` somewhere in the navbar will generate conflicting ids when swapping out strings to a different locale. [#550](https://github.com/formatjs/react-intl/issues/550) Could be something like `component/section.userDefinedString` `addAccount.addAccount` for "Add Account". and `buttons.cancel` for "Cancel".
+
+## Language Selection
+We should consider the several points for language selection
+- Browser Language Detection
+- App State
+- Cookies
+- Page URL parameters (website.com?lang=en)
+
+One implementation can be that cookies will be the primary way to persist the language selected with prioritization in this order
+
+- Cookie
+- App State
+- Page URL parameters
+- Browser Language
+
+Without cookie, app state, or page URL parameters, we will use browser language (Ex. First time the user visits the site)... When the browser language is detected, we set that to our cookie, and use page state/ page url to update that cookie. The Cookie will be the source of truth for our language selection. 
