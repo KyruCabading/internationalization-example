@@ -3,7 +3,7 @@ https://with-react-intl.herokuapp.com/
 
 
 ## Summary
-**It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues). 
+**It'll be much faster to implement translation after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues). 
 
 1. Setup Internationalization
 2. Finalize the Application
