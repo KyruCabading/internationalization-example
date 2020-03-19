@@ -3,17 +3,21 @@ https://with-react-intl.herokuapp.com/
 
 
 ## Summary
-**It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues).
+**It'll be much faster to implement internationalization after the app is finalized** because our pace is quick with alot of moving parts. We will save more dev hours by replacing strings with the components _after_ the app is more or less finalized. The most intensive part of this process is hooking internationalization up properly which can be done after the app is finished (no compatibility issues). 
+So 
+1. Setup Internationalization
+2. Finalize the Application
+3. Translate Strings with Translation Components
+
+# Overview
+We can use either [react-intl](https://github.com/formatjs/react-intl) or [react-i18next](https://github.com/i18next/react-i18next). Both can do what we need. I prefer react-intl for it's cleaner structure.
+I don't suggest that we make our own solution due to the amount of edge cases languages have. 
 
 ### Project Work Flow
 1. Switch out english strings in the app with Translation components
 2. Run a script to extract all english strings from components into one "language" file 
 3. We send this language file to a team of spanish speakers to translate
 4. They give us that file back and we'll have spanish supported. 
-
-# Overview
-We can use either [react-intl](https://github.com/formatjs/react-intl) or [react-i18next](https://github.com/i18next/react-i18next). Both can do what we need. I prefer react-intl for it's cleaner structure.
-I don't suggest that we make our own solution due to the amount of edge cases languages have. 
 
 ## How to run
 
