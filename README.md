@@ -21,9 +21,9 @@ I don't suggest that we make our own solution due to the amount of edge cases la
 
 ## How to run
 
-`npm i`
+`yarn`
 
-`npm run dev`
+`yarn dev`
 
 ## What's Covered
 
