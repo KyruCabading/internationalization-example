@@ -94,8 +94,7 @@ We should consider the several points for language selection
 One implementation can be that cookies will be the primary way to persist the language selected with prioritization in this order
 
 - Cookie
-- App State
 - Page URL parameters
 - Browser Language
 
-Without cookie, app state, or page URL parameters, we will use browser language (Ex. the first time a user visits the site)... When the browser language is detected, we set that to our cookie, and use page state/ page url to update that cookie. The Cookie will be the source of truth for our language selection. 
+Without cookie, app state, or page URL parameters, we will use browser language (Ex. the first time a user visits the site)... When the browser language is detected, we set that to our cookie, and update that cookie based on page actions / page url paramters. The Cookie will be the source of truth for our language selection. 
